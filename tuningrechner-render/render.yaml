@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: tuningrechner-rechnung
+    runtime: static
+    buildCommand: echo "kein Build noetig"
+    staticPublishPath: .
